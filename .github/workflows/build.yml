@@ -30,7 +30,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Build and analyze
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
-          SONAR_TOCKEN: ${{ secrets.SONAR_TOCKEN }}
-          SONAR_URL: ${{ secrets.SONAR_URL }}
+          login: 7238a250bbb5e524b1c1892ac42e2da38e487cdd
+          host: https://2c1f-2405-204-540d-aaef-bcd8-da39-f139-d691.ngrok.io
+          sonar.projectKey: Samplejar
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Samplejar
