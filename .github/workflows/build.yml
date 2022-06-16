@@ -32,5 +32,4 @@ jobs:
         env:
           login: 7238a250bbb5e524b1c1892ac42e2da38e487cdd
           host: https://2c1f-2405-204-540d-aaef-bcd8-da39-f139-d691.ngrok.io
-          sonar.projectKey: Samplejar
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Samplejar
