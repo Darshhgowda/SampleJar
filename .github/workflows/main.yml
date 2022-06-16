@@ -21,5 +21,3 @@ jobs:
       #   timeout-minutes: 5
       #   env:
       #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      #6d1c79ab4874c0498805405bb76a8879dd15aaea
-      # https://2c1f-2405-204-540d-aaef-bcd8-da39-f139-d691.ngrok.io
